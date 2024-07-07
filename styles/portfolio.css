@@ -125,9 +125,6 @@ main section{
     display: flex;
     justify-content: space-around;
 }
-.about-title{
-
-}
 /* skills section */
 .skills-container{
     display: flex;
@@ -138,9 +135,6 @@ main section{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-}
-.skill-description{
-   
 }
 .section-description{
     margin-left: 90px;
@@ -188,4 +182,31 @@ main section{
 .resume-download-CV{
     margin-top: 50px;
 }
-
+/* footer style */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 110px;
+}
+.section-title{
+    padding-bottom: 20px;
+}
+.section-sub{
+    padding-bottom: 30px;
+}
+.section-title-1{
+    padding-bottom: 28px;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+    height: 64px;
+    width: 461px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
