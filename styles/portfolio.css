@@ -140,6 +140,7 @@ main section {
     padding: 131px 157px;
     text-align: center;
     border-radius: 10px;
+    
 }
 
 .about-items {
@@ -254,6 +255,7 @@ footer input[type="text"], footer input[type="email"], footer textarea {
 @media (max-width: 1200px) {
     nav {
         margin: 0 50px;
+        font-size: 24px;
     }
 
     .banner {
@@ -330,12 +332,17 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     }
 
     .about {
-        padding: 20px;
+        padding: 0px 5px;
+        margin-left: 2px;
+        margin-right: 2px;
+        text-align: left;
+        width: 100%;
     }
 
     .about-items {
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
+        font-size: small;
     }
 
     .skills-container {
