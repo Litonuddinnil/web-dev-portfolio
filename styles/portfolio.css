@@ -289,20 +289,31 @@ footer input[type="text"], footer input[type="email"], footer textarea {
 }
 
 /* For mobile phones (480px and below) */
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     nav {
         flex-direction: column;
         align-items: flex-start;
-        margin: 0 20px;
+        margin: 0 auto;
+        width: 100%;
+       
     }
 
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
+        gap: 10px;
+        top: 0px;
         margin: 0;
+        display: flex;
+        justify-content: space-between;
     }
 
     nav ul li {
-        margin: 10px 0;
+        /* margin: 10px 0; */
+        text-align: center;
+       
+    }
+    .btn-primary{
+         margin-top: 20px;
     }
 
     .banner-content {
@@ -327,22 +338,24 @@ footer input[type="text"], footer input[type="email"], footer textarea {
         height: auto;
     }
 
-    main {
+    /* main {
         padding: 0 10px;
-    }
+    } */
 
     .about {
         padding: 0px 5px;
         margin-left: 2px;
         margin-right: 2px;
-        text-align: left;
+        text-align: center;
         width: 100%;
+        flex-wrap: wrap;
     }
 
     .about-items {
         flex-direction: row;
         gap: 20px;
-        font-size: small;
+        font-size:12px;
+        width: 100%;
     }
 
     .skills-container {
