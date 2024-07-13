@@ -264,8 +264,25 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     .item-title{
         font-size:larger;
     }
-    .skills-container,.resume-container,footer{
+    .skills-container,.resume-container,footer,.banner,nav{
         flex-direction: column;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image:none ;
+         
+    }
+    .btn-primary{
+         margin-bottom: 20px;
+    }
+    .banner-title{
+        font-size:xx-large;
+    }
+    .banner-profile-pic{
+        width: 100%;
+        height: 100%;
     }
     .section-description{
         text-align: left;
